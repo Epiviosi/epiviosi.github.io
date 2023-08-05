@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    width: 100%;
+    height: 600px;
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #001525,#001525, #000000);
+}
+
+.Busqueda{
+    position: fixed;
+    left:0;
+    top:0;
+    right:0;
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:30px ;
+    
+    background: #001525;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    
+}
+
+.Busqueda a:hover{
+    color:rgb(0, 0, 0);
+    background-color:#24FF65 ;
+    border-radius:15px;
+
+}
+
+.b1{text-decoration: none; padding:10px; color: white; font-size:1.60em;}
+.b2{text-decoration: none; padding:10px; color: white; font-size:1.60em;}
+.b3{text-decoration: none; padding:10px; color: white; font-size:1.60em;}
+
+.logo img{
+    height: 150px;
+    width: 175px;
+    padding-bottom: 20px;
+}
+
+.container{
+    overflow: hidden;
+    padding-top: 250px;
+}
+
+img{
+    width: 450px;
+    height: 450px;
+}
+
+.card{
+    padding-left: 10px;
+    margin-left: 15px;
+    float: left;
+}
+
