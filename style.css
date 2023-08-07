@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: Algerian;
+    src: url(../font/Algerian\ Regular.ttf);
+}
+
+@font-face{
+    font-family: Copperplate;
+    src: url(../font/Copperplate\ Gothic\ Light\ Regular.ttf);
+}
+
+body{
+    font-family: Copperplate, sans-serif;
+    width: 1300px;
+    margin: auto;
+    height: 600px;
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #001525,#001525, #000000);
+}
+
+.Busqueda{
+    position: fixed;
+    left:0;
+    top:0;
+    right:0;
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:30px ;
+    
+    background: #001525;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    
+}
+
+.Busqueda a:hover{
+    color:rgb(0, 0, 0);
+    background-color:#24FF65 ;
+    border-radius:15px;
+
+}
+
+.b1{text-decoration: none; padding:10px; color: white; font-size:1.60em;}
+.b2{text-decoration: none; padding:10px; color: white; font-size:1.60em;}
+.b3{text-decoration: none; padding:10px; color: white; font-size:1.60em;}
+
+.logo img{
+    height: 150px;
+    width: 175px;
+    padding-bottom: 20px;
+}
+
+.present{
+    margin-left: 20px;
+    margin-top: 100px;
+    width: 90%;
+}
+
+
+
+.SegSub{
+    padding-top: 20px;
+}
+
+.present h1, p{
+    color: rgb(202, 202, 202);
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+.present h1{
+    font-family: Algerian, Arial, sans-serif;
+    font-size: 3em;
+    color: #24FF65;
+}
+
+.present p{
+    font-size: 1.5em;
+}
+.contact{
+    
+    border: 2px solid white;
+    padding: 20px;
+    text-align: left;
+    margin-left: 20px;
+    width: 700px;
+    font-size: 1.70em;
+    margin-bottom: 30px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom:30px ;
+}
+
+.contact h1, li{
+    color: white;
+}
+
+.contact ul{
+    margin-top: 20px;
+    list-style: none;
+}
+
+.contact ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.ImgBase{
+    width: 1300px;
+    padding-top: 290px;
+    
+}
+
+.ImgSec{
+    width: 1300px;
+    padding-top: 100px;
+    
+}
+
+.mapa{
+    padding-left: 10px;
+    margin-left: 15px;
+    float: left;
+} 
+
+.form{
+    width: 600px;
+    margin: 20px ;
+    padding: 30px;
+    background-color: #24FF65;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+
+.formu{
+    width: 70%;
+    margin-top:5px ;
+    border:1px solid black;
+}
+
+.msg{
+    border:1px solid black;
+    width: 90%;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.send{
+    width: 100px;
+    margin-top: 10px;
+    border: none;
+    background: #001525;
+    color: white;
+    padding: 5px;
+
+}
+
+.form h1{
+    font-size: 1.8em;
+}
+
+.send input:hover{
+    width: 115px;
+}
